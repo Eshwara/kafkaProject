@@ -1,0 +1,15 @@
+use below command to start the zookeeper and kafka server
+==============================================================
+1) Go to kafka folder where it is extracted and run below, it will start zookeeper
+./bin/zookeeper-server-start.sh config/zookeeper.properties
+
+2) start the kafka server in the same as zookeeper.
+./bin/kafka-server-start.sh config/server.properties
+
+3) create a topic using the below command( topic name is test)
+./bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test
+
+4) produce the message using the console producer using the below command
+./bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
+
+(this command will take you to console where you can type the message and produce, so that consumer will consume these messages)
