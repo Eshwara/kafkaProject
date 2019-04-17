@@ -16,6 +16,7 @@ public class KafkaConsumer {
     @KafkaListener(topics = "testJson", groupId = "group_json", containerFactory = "userKafkaListenerFactory")
     public void consumeJson (User user){
 
-        System.out.print("message received : " + user);
+        System.out.println("message received : " + user);
+
     }
 }
