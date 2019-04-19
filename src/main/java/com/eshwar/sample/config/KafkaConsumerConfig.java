@@ -1,7 +1,7 @@
-package com.taget.sample.config;
+package com.eshwar.sample.config;
 
 import org.springframework.kafka.support.serializer.JsonDeserializer;
-import com.taget.sample.model.User;
+import com.eshwar.sample.model.User;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.context.annotation.Bean;

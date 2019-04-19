@@ -1,6 +1,6 @@
-package com.taget.sample.listener;
+package com.eshwar.sample.listener;
 
-import com.taget.sample.model.User;
+import com.eshwar.sample.model.User;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 

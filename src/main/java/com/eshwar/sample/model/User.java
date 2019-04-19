@@ -1,4 +1,4 @@
-package com.taget.sample.model;
+package com.eshwar.sample.model;
 
 public class User {
 

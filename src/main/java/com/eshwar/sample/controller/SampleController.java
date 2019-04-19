@@ -1,4 +1,4 @@
-package com.taget.sample.controller;
+package com.eshwar.sample.controller;
 
 import org.json.JSONObject;
 import org.springframework.http.HttpStatus;

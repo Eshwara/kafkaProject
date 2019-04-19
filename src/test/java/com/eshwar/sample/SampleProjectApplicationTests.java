@@ -1,4 +1,4 @@
-package com.taget.sample;
+package com.eshwar.sample;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
