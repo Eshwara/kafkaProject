@@ -6,7 +6,7 @@ plugins {
 apply plugin: 'io.spring.dependency-management'
 //mainClassName = 'com.target.sample.SampleProjectApplication'
 
-group = 'com.taget.sample'
+group = 'com.eshwar.sample'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
@@ -20,7 +20,7 @@ ext {
 
 jar {
 	manifest {
-		attributes 'Main-Class': 'com.target.sample.SampleProjectApplication'
+		attributes 'Main-Class': 'com.eshwar.sample.SampleProjectApplication'
 	}
 
 	from {
