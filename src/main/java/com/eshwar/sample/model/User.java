@@ -1,5 +1,6 @@
 package com.eshwar.sample.model;
 
+
 public class User {
 
     private String name;
